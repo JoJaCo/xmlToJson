@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">xmlToJson</string>
+    <string name="title_of_page">Address Book</string>
+</resources>
