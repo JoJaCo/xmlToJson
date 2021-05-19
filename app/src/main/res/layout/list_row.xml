@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!--TextView to display the name-->
+    <TextView
+    android:id="@+id/customer_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="17dp"
+    android:textStyle="bold" />
+
+    <!--TextView to display the designation-->
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+    <!--TextView to display the name-->
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <!--TextView to display the designation-->
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+    <!--TextView to display the name-->
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <!--TextView to display the designation-->
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+    <!--TextView to display the name-->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <!--TextView to display the designation-->
+    <TextView
+        android:id="@+id/postal_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+    <!--TextView to display the name-->
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <!--TextView to display the designation-->
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="7dp"
+        android:textColor="#343434"
+        android:textSize="14dp" />
+    <!--TextView to display the name-->
+    <TextView
+        android:id="@+id/fax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>
